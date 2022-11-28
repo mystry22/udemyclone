@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #fff;
+    height: 50px;
+    line-height: 40px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #1c1d1f;
+    font-weight: 300;
+}
+
+.header input {
+    width: 40%;
+    background-color: #fbfaf2;
+    height: 42px;
+    border-radius: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex
+}
+
+nav ul li {
+    margin-right: 5px;
+}
+
+.nav-button {
+    padding: 12px;
+    border-radius: 0px;
+    border-width: .1px;
+    border-color: #1c1d1f;
+    background-color: #fff;
+    color: #1c1d1f;
+    font-weight: 700;
+}
+
+.nav-button-black {
+    padding: 12px;
+    border-radius: 0px;
+    border-width: .1px;
+    border-color: #1c1d1f;
+    background-color: #1c1d1f;
+    color: #fff;
+    font-weight: 700;
+}
+
+.top-display {
+    background-image: url('../assets//fallback_banner_image_udlite.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.cyber {
+    background-color: #fff;
+    height: 150px;
+    width: 400px;
+    padding: 20px;
+}
+
+.container {
+    padding: 30px;
+}
+
+.abroad {
+    display: flex;
+    flex-direction: column;
+}
+
+.abroad h2 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 1.25;
+    letter-spacing: -.05rem;
+}
+
+.abroad span {
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.abroad ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.abroad ul li a{
+    text-decoration: none;
+    color: #6a6f73;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.card{
+    padding: 30px 20px;
+    border: 1px solid #6a6f73;
+    margin-top: 10px;
+}
+
+.card p{
+    max-width: 57%;
+}
