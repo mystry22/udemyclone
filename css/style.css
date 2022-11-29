@@ -160,9 +160,9 @@ nav ul li {
     
 }
 .card-item-title{
-    color: #1c1d1f;
-    font-weight: 700;
-    font-size: 15px;
+    color: #1c1d1f !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
     font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 }
 
@@ -170,4 +170,10 @@ nav ul li {
     color: #6a6f73 !important;
     font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol !important;
     font-size: 12px !important;
+}
+.best-seller{
+    background-color: #eceb98 !important;
+    border: none;
+    border-radius: none;
+    font-size: 12px;
 }
