@@ -111,6 +111,7 @@ nav ul li {
     padding: 30px 20px;
     border: 1px solid #6a6f73;
     margin-top: 10px;
+    height: 75vh;
 }
 
 .card p {
@@ -121,6 +122,11 @@ nav ul li {
     font-size: 25px;
     font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
 
+}
+
+.card-list{
+    display: flex;
+    padding: 10px;
 }
 
 .card p {
@@ -143,8 +149,9 @@ nav ul li {
 
 .card-item{
     padding: 0px;
-    width: 15%;
-    height: 70px;
+    width: 20%;
+    height: 20vh;
+    margin-right: 10px;
 }
 .card-item-image{
     width: 100%;
