@@ -152,9 +152,22 @@ nav ul li {
     width: 20%;
     height: 20vh;
     margin-right: 10px;
+    cursor: pointer;
 }
 .card-item-image{
     width: 100%;
     height: 100%;
     
+}
+.card-item-title{
+    color: #1c1d1f;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.card-item-author{
+    color: #6a6f73 !important;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol !important;
+    font-size: 12px !important;
 }
